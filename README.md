@@ -1,2 +1,1 @@
-# alu-shell
-for shell work on intranet
+Write a script that prints the absolute path name of the current working directory.ZZ
