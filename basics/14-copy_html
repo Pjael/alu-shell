@@ -1,2 +1,2 @@
 #!/bin/bash
-cp alu-shell/basics/*.html /alu-shell/ -rua
+cp -rua *.html ../
