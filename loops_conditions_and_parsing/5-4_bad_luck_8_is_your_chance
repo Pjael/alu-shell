@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# bash that loops form 1 to 10 and displays bad luck for the 4th loop, good luck for the 8th loop and Best School for the other ierations.
+
+CONTER=1
+
+while [ $CONTER -lt 10 ]; 
+do 
+       if [ $CONTER -eq 4 ]
+       then
+echo "bad luck" 
+       elif [ $CONTER -eq 8 ]
+       then
+ echo "good luck"
+       else 
+echo "Best School"
+      fi 
+      let CONTER=CONTER+1
+done
