@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # bash that displays numbers from 1 to 20, 4 and bad luck from china, 9 then bad luck from japan, 17 then bad luck from Italy
 
 count=1

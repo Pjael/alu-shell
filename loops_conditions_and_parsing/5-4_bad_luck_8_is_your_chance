@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # bash that loops form 1 to 10 and displays bad luck for the 4th loop, good luck for the 8th loop and Best School for the other ierations.
 
 CONTER=1

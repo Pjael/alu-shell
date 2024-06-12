@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #Bash script that displays Best School 10 times with hi on the 9th line.
 
 cont=1
