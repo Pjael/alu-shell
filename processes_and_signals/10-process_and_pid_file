@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# bash scirpt that creates file
+#bash script that displays To infinity and beyond 
+#displays I hate the kill command
+#displays Y U no love me?!
+#deletes the file /var/run/myscript.pid
+function love() {
+	cat /var/run/myscript.pid
+	exit
+}
+
+echo $>> /var/run/myscript.pid
+while [true]; 
+do
+	echo "To infinity and beyond";
+
+trap "echo I hate the kill command;love" SIGTERM
+trap "echo Y U no love me ?!;love" SIGINT
+done
