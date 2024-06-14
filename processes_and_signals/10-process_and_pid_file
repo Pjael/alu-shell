@@ -5,12 +5,12 @@
 #displays Y U no love me?!
 #deletes the file /var/run/myscript.pid
 function love() {
-	cat /var/run/myscript.pid
+	rm /var/run/myscript.pid
 	exit
 }
 
 echo $>> /var/run/myscript.pid
-while [true]; 
+while [ true ]; 
 do
 	echo "To infinity and beyond";
 
