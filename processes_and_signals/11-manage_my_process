@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
 #bash that indefinetly writes I am alive 
 #bash scirpt that manages manage my process
-
+echo $>> /tmp/my_process
+while true : 
+do
+	echo "I am alive"
+	sleep 2s
+done
